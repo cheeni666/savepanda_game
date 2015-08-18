@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.myprey.savepanda.Dialog">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="How To Play:(Dont use hardware buttons)\n*Touch Below the panda to move it\n*Avoiding anything increases your points in the order croc>leaf>log\n*Avoid the logs and Grab the leaves\n*Avoid the crocodiles\n*Use the black button to jump over crocodiles but you dont get the points\n*The back button above takes u to the menu\n*The game gets faster as u proceed
+        \nTip:The sky in the game changes according to current time"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
